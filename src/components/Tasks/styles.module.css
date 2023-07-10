@@ -1,0 +1,200 @@
+.conten{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+    margin-left: 250px;
+    transition: all .3s ;
+}
+
+.conten_icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+    margin-left: 100px;
+    transition: all .3s ;
+}
+
+/*  #### S E C T I O N #### B O X  */
+.section_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    border-radius: 5px;
+    background: #fff; 
+    /* box-shadow: 0 0 1rem #00000025; */
+}
+
+.section_box_i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background: #3c89f4;
+    cursor: pointer;
+    transition: all.3s;
+    color: #fff;
+}
+
+.section_box_i:hover{
+    background: #026afb;
+    transform: scale(1.1);
+}
+
+.section_box_iMenu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.section_box_iMenu:hover{
+    transition: .3s;
+    background: #1111;
+}
+
+
+/* #### S E C T I O N #### C A R S  */
+
+.section_cars{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-height: 81vh;
+    gap: 5px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 1rem #00000025;
+}
+
+.section_cars_div{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.section_cars_div_btn a{
+   padding: 7px 40px;
+   padding-left:10px ;
+   font-weight: 400;
+   font-size: 14px;
+   color: #555;
+   background: transparent;
+   border: 1px solid #444;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.section_cars_div_btn a:hover{
+    background: #F1F6F9;
+    transition: .2s;
+}
+
+.section_cars_div_btn{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    padding: 7px;
+    padding-left:10px ;
+    font-weight: 400;
+    font-size: 17px;
+    color: #555;
+    background: transparent;
+    border: 1px solid #444;
+    border: none;
+    border-radius: 10px;
+}
+
+.section_cars_div_btn i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.section_cars_div_btn i:hover{
+    background-color: #1111;
+}
+
+.section_cars_div_div{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding: 0 10px;
+}
+
+.section_cars_div_div span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: #4f92f0 ;
+    background: #1111;
+ }
+
+/*  #### S E C T I O N #### C R E A T E  */
+
+.section_create{
+    position: fixed;
+    background: #fff;
+    z-index: 10000;
+    height: max-content;
+    width: max-content;
+    bottom: 5px;
+    transition: all.3s;
+    right: 10px;
+    border: 1px solid #2222;
+}
+
+/*  #### S E C T I O N #### R E S P O S I V E */
+
+
+
+@media screen and (max-width: 760px){
+    
+.section_box_iMenu{
+    display: flex;
+}
+  .conten_icons{
+    margin-left: 0;
+  }
+
+  .conten{
+    margin-left: 0;
+  }
+
+  .section_box_i{
+     position: fixed;
+     z-index: 900;
+     bottom: 30px;
+     right: 30px;
+     height: 30px;
+     width: 30px;
+  }
+
+   .section_create{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+   }
+
+ }

@@ -1,0 +1,225 @@
+.nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 100vh;
+    width: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* margin-right: 10px; */
+    background: #fff;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    transition: all .3s;
+    z-index: 10000;
+    /* box-shadow: 0 0 1rem #00000025; */
+}
+
+/* #####  N A V ###### R E S P O S I V E##### I C O N S */
+/* ////////////////////////// */
+.nav_icons{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+   height: 100vh;
+   width: 100px;
+   overflow: hidden;
+   margin-right: 10px;
+   background: #fff;
+   padding: 0 10px;
+   padding-top: 10px;
+   padding-bottom: 30px;
+   transition: all .3s;
+   z-index: 10000;
+   box-shadow: 0 0 1rem #00000025;
+}
+
+.nav_icons h4{
+   display: none;
+}
+
+.nav_icons .addList{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+}
+
+/* ############################### */
+/* ////////////////////////// */
+
+/* #####  D I V ###### N A V */
+/* /////////////////// */
+
+.nav_div{ 
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+}
+
+
+/* #####  S E C T I O N ###### T I T L E */
+/* /////////////////////////// */
+
+.nav_div_title{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 17px;
+   padding: 10px 20px;
+   color: #000;
+   cursor: pointer;
+
+}
+
+.nav_div_title i{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 37px;
+   height: 37px;
+   border-radius: 50%;
+   
+}
+
+.nav_div_title i:hover{
+   background: #1111;
+   transition: .3s;
+}
+
+.nav_div_title h3{
+   font-weight: 400;
+   font-size: 23px;
+}
+
+
+/* #####  S E C T I O N ###### L I N K */
+/* /////////////////////////// */
+
+.nav_div_a{
+   position: relative;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px 20px;
+   color: #000;
+   cursor: pointer;
+   border-top-right-radius: 30px ;
+   border-bottom-right-radius: 30px;
+   transition: .3s;
+}
+
+.nav_div_a:hover{
+   color: #4f92f0;
+   background: #1111;
+}
+
+.nav_div_a:hover span{
+   background: transparent;
+}
+.nav_div_a i{
+   font-size: 18px;
+}
+
+.nav_div_a h4{
+   font-size: 16px;
+   font-weight: normal;
+   width: 70%;
+}
+
+.nav_div_a span {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 25px;
+   width: 25px;
+   right: 25px;
+}
+
+.line{
+   height: 1px;
+   width: 100%;
+   margin: 10px 0;
+   margin-bottom: 20px;
+   background: #1111;
+}
+
+
+
+
+/* ###### S E C T I O N ###### L I S T */
+/* /////////////////////////// */
+
+.nav_div_contenList{
+   display: flex;
+   flex-direction: column;
+   background: #11111100;
+   min-height: 40vh;
+   
+}
+
+.nav_div_contenListNoDisplay{
+   height: 0;
+   overflow: hidden;
+}
+
+.icons{
+   transition: .5s;
+   transform: rotate(180deg);
+}
+
+
+/* /////////////////////////// */
+
+.categories{
+   position: relative;
+   padding: 10px 5px;
+   font-weight: 400;
+   font-size: 14px;
+   color:#888;
+}
+
+.addList{
+   display: flex;
+   align-items: center;
+   padding: 10px 15px;
+}
+
+.addList h4{
+   color: #000;
+   font-weight: 300;
+   font-size: 14px;
+   width: 80%;
+}
+
+.addList i {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background: #1111;
+   cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 760px){
+   .nav_icons{
+       left: -100px;
+   }
+   .nav{
+      width: 100%;
+   }
+}
