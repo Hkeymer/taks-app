@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Hkeymer/taks-app/static/css/main.e108b426.css",
+    "main.js": "/Hkeymer/taks-app/static/js/main.a2efa9fd.js",
+    "static/css/763.a81d6d76.chunk.css": "/Hkeymer/taks-app/static/css/763.a81d6d76.chunk.css",
+    "static/js/763.06aa9a65.chunk.js": "/Hkeymer/taks-app/static/js/763.06aa9a65.chunk.js",
+    "index.html": "/Hkeymer/taks-app/index.html",
+    "main.e108b426.css.map": "/Hkeymer/taks-app/static/css/main.e108b426.css.map",
+    "main.a2efa9fd.js.map": "/Hkeymer/taks-app/static/js/main.a2efa9fd.js.map",
+    "763.a81d6d76.chunk.css.map": "/Hkeymer/taks-app/static/css/763.a81d6d76.chunk.css.map",
+    "763.06aa9a65.chunk.js.map": "/Hkeymer/taks-app/static/js/763.06aa9a65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e108b426.css",
+    "static/js/main.a2efa9fd.js"
+  ]
+}
