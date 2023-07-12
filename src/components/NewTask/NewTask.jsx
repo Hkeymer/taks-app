@@ -83,7 +83,7 @@ const NewTask = () => {
     })
 
     dispatch(upDateComponenetAction(true))
-    // dispatch(isLoadignAction(true))
+    dispatch(isLoadignAction(true))
     history(pathRoute)
     if (!pin) {
         close();
