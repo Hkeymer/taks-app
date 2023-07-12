@@ -67,6 +67,7 @@ const Cart = ({title,description,done,date,id,CategoryID}) => {
          if(window.confirm('Are you sure you want to delete it?')){
          fetch(`${API_URLBASE}delete/${id}`,{method:'DELETE'})
          dispatch(upDateComponenetAction(true))
+         dispatch(isLoadignAction(true))
          history(pathRoute)
         }
    };
